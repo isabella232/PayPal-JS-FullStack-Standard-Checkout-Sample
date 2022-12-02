@@ -17,12 +17,12 @@
   <hr />
 </div>
 
-# PayPal JS FullStack Advanced Checkout
+# PayPal JS FullStack Standard Checkout
 This sample app shows you how to integrate PayPal into your app for the [standard checkout(https://developer.paypal.com/docs/checkout/standard/integrate/) workflow.
 
 To create this application from scratch, follow the [Standard Checkout integration](https://developer.paypal.com/docs/checkout/standard/integrate/) guide from the [PayPal Developer](https://developer.paypal.com/home) docs.
 
-## Public/Index.html
+## Public/index.html
 
 ### Create Order
 The `createOrder()` callback allows you to create the request of your order with the following properties from the [V2 orders create call](https://developer.paypal.com/api/orders/v2/#orders-create-request-body): item_total, purchase_units, and more.
@@ -160,7 +160,7 @@ CLIENT_ID=
 APP_SECRET=
 ```
 
-Complete the steps in Get started to get the following sandbox account information from the Developer Dashboard:
+Complete the steps in [Get started](https://developer.paypal.com/api/rest/) to get the following sandbox account information from the Developer Dashboard:
 - Sandbox client ID and the secret of [a REST app](https://www.paypal.com/signin?returnUri=https%3A%2F%2Fdeveloper.paypal.com%2Fdeveloper%2Fapplications&_ga=1.252581760.841672670.1664266268).
 - Access token to use the PayPal REST API server.
 
